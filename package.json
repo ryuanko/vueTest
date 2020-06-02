@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "ant-design-vue": "^1.6.2",
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "lodash": "^4.17.15",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -32,7 +36,15 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "vue/no-unused-components": 0,
+      "no-undef": 0,
+      "no-console": 0,
+      "no-mixed-spaces-and-tabs": 0,
+      "vue/no-unused-vars": 0,
+      "no-unused-vars": 0,
+      "vue/no-use-v-if-with-v-for": 0
+    }
   },
   "browserslist": [
     "> 1%",

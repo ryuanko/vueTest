@@ -1,0 +1,45 @@
+.ag-theme-material {height: 584px;} /* 15줄 */
+
+.ag-theme-material .ag-header-cell-text {width:100%}
+.ag-theme-material .ag-header-group-text {width:100%}
+
+/* 컬럼  */
+.ag-theme-material .headerRowSpan {
+    height: 84px !important;  /* row span 2개 합친 높이 (1개 default : 42px입니다) */
+    margin-top: -32px;  /* 위로 55px만큼 땡깁니다.. */
+    line-height: 84px !important; /* 글씨 세로 가운데로 정렬 */
+    border: 0px;
+}
+
+.ag-theme-material .borderSolid {border-right: 1px solid #e2e2e2}
+.ag-theme-material .ag-header-group-cell.ag-header-group-cell-no-group{padding: 0; border-right: 1px solid #e2e2e2;}
+.ag-theme-material .ag-header-group-cell.ag-header-group-cell-no-group:first-child{border-left: 1px solid #e2e2e2;} /* 그룹 해더 첫번째 왼쪽 border 1px */
+.ag-theme-material .ag-header-container .ag-header-row:nth-of-type(2) {height: 50px !important; top:33px !important}
+
+/* header,row  text align */
+.ag-theme-material .ag-header-group-text {text-align: center} /* 그룹 해더 기본 left >  center */
+.ag-theme-material .ag-header-viewport { background: #fafafa}
+.ag-theme-material .ag-header-cell {text-align: center; padding-left: 0px; padding-right: 0px; border-right: 1px solid #e2e2e2;} /* 기본 left >  center  cell pading right left 삭제*/
+.ag-theme-material .ag-header-cell:first-child{border-left: 1px solid #e2e2e2;} /* 첫번째 header 왼쪽 border 1px */
+.ag-theme-material .ag-ltr .ag-cell {text-align: center; padding-left: 2px; padding-right: 2px; border-right: 1px solid #e2e2e2} /* 기본 left >  center  cell pading right left 삭제*/ 
+.ag-theme-material .ag-ltr .ag-cell:first-child{border-left: 1px solid #e2e2e2;} /* 첫번째 cell 왼쪽 border 1px */
+
+
+/* checkbox */
+.ag-theme-material .ag-header-select-all {padding: 15%;} /* 체크박스 해더 부분 */
+.ag-theme-material .ag-cell .ag-cell-wrapper .ag-selection-checkbox {margin: auto;} /* checkbox 가운데 정렬*/ 
+
+/* sub checkbox */
+.ag-theme-material .subCheckbox {width: 19px; height: 19px;} /* 그리드 기본 체크박스 말고 create element로 만든 체크박스  */
+
+/* pin */
+.ag-theme-material .ag-floating-bottom { color: red;  overflow: hidden !important; border-bottom: 1px solid #333333}
+.ag-theme-material .ag-floating-bottom .ag-cell {background-color: #f0f8ff}
+
+/* edit 컬럼들 커서 모양 text */
+.ag-theme-material .ag-row-selected .cellEdit {cursor: text}
+/*.ag-theme-material .cellEdit {background-color: #fff0de !important}*/
+.ag-theme-material .cellEdit {background-color: #FFFFF9 !important} /*에디트 가능 셀 컬러*/
+.ag-theme-material .ag-row-selected .ag-cell-inline-editing input[type="number"] {border: 0px !important}
+.ag-theme-material .ag-cell-inline-editing .ag-cell-edit-input {padding: 5px; background: #fafafa !important; border: 0px !important}
+
