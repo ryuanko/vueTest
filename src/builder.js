@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import Tab from './components/Tab'
+// import Tab from './components/Tab'
 /*
  Menu Item
 */
@@ -55,7 +55,7 @@ class Menu {
         return {
           path: `/${this.pathPrefix ? this.pathPrefix: ''}/${this.path ? path: id}`,
           name: id,
-          components: Object.assign(header? {header: Tab}: {}, {body: body}),
+          components: Object.assign(header? {header: null}: {}, {body: body}),
           meta: {
             name: name,
             names: [this.title, item.name,  name],

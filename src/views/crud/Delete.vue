@@ -3,14 +3,16 @@
 </template>
 
 <script>
-	export default {
-	  name: '',
-	  props: [],
-	  mixins: [],
-	  components: {},
-	  data () {
+export default {
+	name: '',
+	props: [],
+	mixins: [],
+	components: {},
+	data () {
 		return {}
-	  },
-	  methods: {}
-	}
+	},
+	methods: {}  
+
+	
+}
 </script>

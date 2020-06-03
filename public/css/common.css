@@ -191,8 +191,8 @@ html{height:100%;}
 body{height:100%; overflow-y: scroll}
 #wrap{position:relative; width:100%; min-width: 1380px; min-height:862px; overflow:hidden;}
 #wrap.on{height:100%}
-#wrap #container{position:relative; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; z-index: 0; padding-top:80px; padding-bottom:90px; height:100%;}
-#wrap .contents{min-height:100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position:relative; padding:0 9% 50px;}
+#container{position:relative; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; z-index: 0; padding-top:80px; padding-bottom:90px; height:100%;}
+.contents{min-height:100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position:relative; padding:0 9% 50px;}
 #wrap .mainCont .contents{min-height:100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; min-width:1280px; position:relative; padding:0 9% 0px;}
 
 #footer{width:100%; position:absolute; bottom:0; background:#ffffff;}

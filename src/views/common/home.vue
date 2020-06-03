@@ -1,11 +1,10 @@
 <template>
   <div class="contents">
-	Home
+    Home
   </div>
 </template>
 <script>
 export default {
-  name: '',
   props: [],  
   components: {},
   data () {

@@ -1,22 +1,18 @@
 import Vue from 'vue'
 import axios from 'axios'
-import _ from 'lodash'
 
 import router from './router'
 import App from './App.vue'
-import Antd from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.css';
-
-import './assets/ag-grid.css'
 import './assets/icis.css'
 
 
 Vue.config.productionTip = false
-//Vue.use(Antd)
 const bus = new Vue() // 버스
 
 Vue.prototype.$bus = bus
 Vue.prototype.$http = axios
+
+console.log(process.env.VUE_APP_ENDPOINT)
 
 axios.defaults.baseURL = process.env.VUE_APP_ENDPOINT
 
@@ -30,7 +26,6 @@ axios.interceptors.request.use( config => {
 }, err => {
   return Promise.reject(err)
 })
-
 
 axios.interceptors.response.use( response => {
   return response

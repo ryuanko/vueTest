@@ -1,7 +1,7 @@
 <template>
     <div id="header">
       <div class="header_top" :class="{on: isOver}" @mouseleave="isOver = false"><!-- on toggle-->
-        <h1><router-link :to="{ name: 'Home' }">ICIS</router-link></h1>
+        <h1><router-link :to="{ name: 'Home' }">HOME</router-link></h1>
         <!-- menu hover -->
         <nav class="menu">
           <ul @mouseover="isOver = true">
@@ -31,8 +31,7 @@
 </template>
 <script>
 export default {
-  name: '',
-  props: [],  
+  props: [],
   components: {},
   data () {
     return {
@@ -60,7 +59,6 @@ export default {
     // if (this.isLoggined) this.connect()
   },
   mounted () {
-    console.log(this.$sides)
     this.allMenu = _.cloneDeep(this.$sides)
    },
   updated () {},
